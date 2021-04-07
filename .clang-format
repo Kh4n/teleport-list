@@ -1,0 +1,18 @@
+BasedOnStyle: Webkit
+IndentWidth: 4
+---
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignConsecutiveAssignments: true
+AlignAfterOpenBracket: AlwaysBreak
+AlwaysBreakTemplateDeclarations: Yes
+BinPackParameters: true
+BinPackArguments: false
+Cpp11BracedListStyle: true
+ColumnLimit: 100
+---
+Language: JavaScript
+# Use 100 columns for JS.
+ColumnLimit: 100

@@ -1,0 +1,6 @@
+services:
+    benchmark:
+        image: alpine:latest
+        volumes:
+            - ../:/teleport-list
+        command: sh -c "/teleport-list/docker/build.sh && /teleport-list/build/benchmark"
