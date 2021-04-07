@@ -1,19 +1,19 @@
 For more information how this DS works, read my CS StackExchange answer here: https://cs.stackexchange.com/questions/137076/does-this-data-structure-already-exist
 
-This DS offers *amortized* $log(n)$ for the following operations:
+This DS offers *amortized* `log(n)` for the following operations:
 - Insert
 - Find
 - Remove
 
 The backing storage is a linked list (or an unrolled linked list), and the data is always sorted.
-This allows for a variety of other queries to be done in $log(n)$ as well eg. range queries.
+This allows for a variety of other queries to be done in `log(n)` as well eg. range queries.
 
 It was designed to be space efficient, simple, fast, and to support indexable operations.
 For indexing, you can use either a segment tree or a Fenwick tree (I am currently experimenting with these options).
 By adding indexable operations, this should be an excellent DS for a text editor.
 
 Another advantage of this DS as far as text editing is concerned is that multiple people can edit different parts
-of a document simultaneously with excellent performance (it is guaranteed $log(n/g)$ where $g$ is a gap size you can adjust)
+of a document simultaneously with excellent performance (it is guaranteed `log(n/g)` where `g` is a gap size you can adjust)
 
 Building should be as simple as:
 ```shell
