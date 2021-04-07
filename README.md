@@ -1,4 +1,4 @@
-For more information how this DS works, read my CS StackExchange answer here: https://cs.stackexchange.com/questions/137076/does-this-data-structure-already-exist
+For more information how this DS works, read my CS StackExchange question here: https://cs.stackexchange.com/questions/137076/does-this-data-structure-already-exist
 
 This DS offers *amortized* `log(n)` for the following operations:
 - Insert
