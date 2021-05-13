@@ -1,6 +1,5 @@
 .vscode
-build
-build-docker
+build*
 
 *.exe
 *.out
