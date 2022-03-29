@@ -29,7 +29,7 @@ meson setup build_release --buildtype release
 cd build_release
 meson_compile
 ```
-The executable is named `teleport-list-benchmark` (or `benchmark.exe`)
+The executable is named `teleport-list-benchmark` (or `teleport-list-benchmark.exe`)
 
 Alternatively, you can use Docker:
 ```shell
