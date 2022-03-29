@@ -15,13 +15,21 @@ By adding indexable operations, this should be an excellent DS for a text editor
 Another advantage of this DS as far as text editing is concerned is that multiple people can edit different parts
 of a document simultaneously with excellent performance (it is guaranteed `log(n/g)` where `g` is a gap size you can adjust)
 
-Building should be as simple as:
+Building should be as simple as (from root dir):
 ```shell
 mkdir build
 cd build
 cmake ../ -DCMAKE_BUILD_TYPE=Release
 ```
 The executable is named `benchmark` (or `benchmark.exe`)
+
+or for Meson:
+```shell
+meson setup build_release --buildtype release
+cd build_release
+meson_compile
+```
+The executable is named `teleport-list-benchmark` (or `benchmark.exe`)
 
 Alternatively, you can use Docker:
 ```shell
